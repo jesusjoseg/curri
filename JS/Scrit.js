@@ -11,4 +11,9 @@ btn.addEventListener('click', ()=>{
         btn.textContent='☀️';
     }
 });
-//const//
+function mostra(id){
+    const seleciont = document.querySelectorAll('main selection');
+    seleciont.forEach(s =>{ s.style.display ='block';});
+
+    document
+}
