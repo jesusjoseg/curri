@@ -68,9 +68,9 @@ body.darktheme header{
     border-radius: 20px;
     background-color: #2d3f53;
 }
-.menuNavigation:hover{
+.menuNavigation button:hover{
     background-color: #4a90e2;
-    transform: scale(1.05);
+    transform: scale(.95);
 }
 a{
     display:inline-block;
