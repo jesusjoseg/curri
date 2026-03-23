@@ -33,3 +33,54 @@ body.darktheme{
 body.darktheme header{
     background-color: #111;
 }
+.proyectoDestacado{
+    background:white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #2d3f53;
+}
+.proyectoDestacado:hover{
+    transform: translateY(-5px);
+    
+}
+.proyectoDestacado h3{
+    margin-top: 0;
+    color: #2d3f53;
+}
+.menuNavigation{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+.menuNavigation button{
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 20px;
+    background-color: #2d3f53;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+}
+#boton{
+    border: none;
+    border-radius: 20px;
+    background-color: #2d3f53;
+}
+.menuNavigation:hover{
+    background-color: #4a90e2;
+    transform: scale(1.05);
+}
+a{
+    display:inline-block;
+    padding:8px 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4a90e2;
+    color: #2d3f53;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
