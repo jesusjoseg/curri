@@ -86,4 +86,6 @@ a{
 }
 a:hover{
     background-color: #357abd;
+    transform: translateY(-2px);
+    color: #ffffff;
 }

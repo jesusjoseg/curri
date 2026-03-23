@@ -12,10 +12,13 @@ btn.addEventListener('click', ()=>{
     }
 });
 function mostra(id){
-    const seleciont = document.querySelectorAll('main selection');
+    const seleciont = document.querySelectorAll('section');
     seleciont.forEach(s =>{ s.style.display ='none';});
     const seccionActiva = document.getElementById(id);
     if (seccionActiva){
         seccionActiva.style.display ='block';
     }
+}
+window.onload = () =>{
+    mostra('Ex');
 }
