@@ -89,3 +89,10 @@ a:hover{
     transform: translateY(-2px);
     color: #ffffff;
 }
+body.darktheme .proyectoDestacado{
+    background-color: #2b2a31;
+    color: #b8a4a4;
+}
+body.darktheme .proyectoDestacado h3{
+    color: #b7a5e7;
+}
