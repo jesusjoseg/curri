@@ -20,5 +20,5 @@ function mostra(id){
     }
 }
 window.onload = () =>{
-    mostra('Ex');
+    mostra('Expleriencia');
 }
