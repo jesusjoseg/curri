@@ -84,3 +84,6 @@ a{
     font-size: .9em;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
+a:hover{
+    background-color: #357abd;
+}
