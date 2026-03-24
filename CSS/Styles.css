@@ -121,3 +121,17 @@ li{
 li strong{
     color: #2d3f53;
 }
+a i{
+    margin-right: 5px;
+    color: white;
+}
+body.darktheme li strong{
+    color: #b7a5e7;
+}
+body.darktheme section,
+body.darktheme .perfilProfesional{
+    background-color: #252525;
+    color: #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+}
