@@ -96,3 +96,28 @@ body.darktheme .proyectoDestacado{
 body.darktheme .proyectoDestacado h3{
     color: #b7a5e7;
 }
+main{
+    width: 90%;
+    max-width: 850px;
+    margin-top: 20px;
+}
+section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: none;
+
+}
+ul{
+    list-style: none;
+    padding:0;
+    
+}
+li{
+    margin-bottom: 12px;
+}
+li strong{
+    color: #2d3f53;
+}
