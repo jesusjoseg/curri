@@ -153,4 +153,8 @@ body.darktheme .perfilProfesional{
 footer{
     width: 100%;
     background-color: #2d3f53;
+    color: white;
+    padding:40px 0;
+    margin-top: 50px;
+    text-align: center;
 }
