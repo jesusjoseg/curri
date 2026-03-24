@@ -150,3 +150,7 @@ body.darktheme .perfilProfesional{
 .perfilProfesional:hover{
     transform:translateY(-5px);
 }
+footer{
+    width: 100%;
+    background-color: #2d3f53;
+}
