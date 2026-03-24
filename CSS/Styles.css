@@ -135,3 +135,18 @@ body.darktheme .perfilProfesional{
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 
 }
+.perfilProfesional{
+    width: 90%;
+    max-width: 850px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border-top: 5px solid #4a90e2;
+    transition:transform .3 ease;
+}
+.perfilProfesional:hover{
+    transform:translateY(-5px);
+}
